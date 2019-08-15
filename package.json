@@ -1,0 +1,24 @@
+{
+  "name": "word-masking-helper",
+  "version": "0.0.0",
+  "description": "A simple javascript helper for masking email and phone number",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devinekadeni/word-masking-helper"
+  },
+  "author": "",
+  "keywords": [
+    "word-masking-helper",
+    "masking",
+    "masking-email",
+    "masking-phone",
+    "masking-phonenumber",
+    "npm",
+    "package",
+    "devinekadeni"
+  ]
+}
