@@ -10,13 +10,20 @@
     "type": "git",
     "url": "https://github.com/devinekadeni/word-masking-helper"
   },
-  "author": "",
+  "author": {
+    "name": "Devin Ekadeni",
+    "email": "devinekadeni@gmail.com",
+    "url": "https://github.com/devinekadeni"
+  },
   "keywords": [
     "word-masking-helper",
     "masking",
     "masking-email",
     "masking-phone",
     "masking-phonenumber",
+    "hide-email",
+    "hide-phone",
+    "hide-phonenumber",
     "npm",
     "package",
     "devinekadeni"
