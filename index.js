@@ -46,7 +46,7 @@ const maskingEmail = (fullText, replacement = '*') => {
  * @returns {String} Returns the `fullText` but changed the `phoneNumber` into `replacement` if there is any `phoneNumber`.
  */
 const maskingPhone = (fullText, replacement = '*') => {
-  const regexPhone = /[+]*[(]?[+]?[0-9]{1,4}[)]?[-\s./0-9]*/gm
+  const regexPhone = /[+]*[(]?[+]?[0-9]{1,4}[)]?[- ./0-9]*/gm
   const listPhone = fullText.match(regexPhone)
 
   if (listPhone && listPhone.length) {
