@@ -11,7 +11,7 @@ npm install word-masking-helper
 ## Examples
 
 ```javascript
-import emailPhoneMasking from 'word-masking-helper'
+import emailPhoneMasking, { maskingEmail, maskingPhone } from 'word-masking-helper'
 
 const description = `
 Hi, my name Devin Ekadeni.
@@ -44,6 +44,8 @@ Or you can contact me by phone:
 
 Or you could call my manager at 098*******7 or v**a@e*******com
 */
+
+// You can also use `maskingEmail` or `maskingPhone` only
 ```
 
 you can try the sandbox [here](https://codesandbox.io/s/vigorous-mclean-duhtm)
